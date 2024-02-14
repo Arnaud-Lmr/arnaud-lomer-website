@@ -11,12 +11,12 @@ function Home() {
       <section className="homeProfile">
         <img src="/arnaud.jpg" alt="home" className="profilePicture" />
         <div>
-          <h3>Front-end developer</h3>
+          <h3>Full-Stack developer</h3>
           <h1 className="name">Arnaud Lomer</h1>
           <h4>
             Curieux, motivé, agile et avide d&apos;apprendre, je vous partage
-            sur ce site internet un échantillon des compétences Front-end que
-            j&apos;ai pu développer dernièrement
+            sur ce site internet un échantillon des compétences Front-end et
+            back-end que j&apos;ai pu développer dernièrement
           </h4>
           <div className="linkContainer">
             <NavLink to="/portfolio">

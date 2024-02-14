@@ -17,13 +17,19 @@ const skills = [
     logo: "./html-css-js.png",
     title: "HTML,CSS, JavaScript",
     description:
-      "Compétences en HTML, CSS et javaScript via la connaissance de la structure HTML, des balises HTML, des classes CSS, des animations CSS, styles CSS, grid, flexbox... Utilisation de 'vanilla Javascript' quand React ne permet pas réaliser certaines fonctionnalités.",
+      "Compétences en HTML, CSS et javaScript via la connaissance de la structure HTML, des balises HTML, des classes CSS, des animations CSS, styles CSS, grid, flexbox... Utilisation de 'vanilla Javascript' quand React ne permet pas réaliser certaines fonctionnalités car par exemple pour les tests unitaires Jest.",
   },
   {
     id: 3,
+    logo: "./backend.jpg",
+    title: "Back-end et BDD",
+    description: "Compétences en MongoDB, Express, NodeJS, Java, Git, GitHub",
+  },
+  {
+    id: 4,
     logo: "./ux-design.png",
     title: "UI/UX Design",
-    description: "Utilisateur éclairé de Figma et Canva.",
+    description: "Utilisateur éclairé de Figma.",
   },
 ];
 
@@ -31,7 +37,10 @@ const skillsCompletion = [
   { name: "React", percentage: "90%", color: "#61DBFB" },
   { name: "HTML", percentage: "95%", color: "#F06529" },
   { name: "CSS", percentage: "90%", color: "#264de4" },
+  { name: "Git/GitHub", percentage: "90%", color: "lightgrey" },
   { name: "JavaScript", percentage: "80%", color: "#F0DB4F" },
+  { name: "MongoDB, Express, NodeJS", percentage: "65%", color: "green" },
+  { name: "Java", percentage: "60%", color: "red" },
 ];
 
 function Skills() {
@@ -39,7 +48,7 @@ function Skills() {
     <div className="pageStructure">
       <PageNav />
       <div className="titleSecondaryPage">
-        <h1>Front-end skills</h1>
+        <h1>Skills</h1>
         <a
           href="cv-lomer-arnaud.pdf"
           download="CV Arnaud Lomer"

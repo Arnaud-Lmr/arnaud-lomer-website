@@ -53,10 +53,7 @@ function Contact() {
             Je recherche activement une entreprise dynamique, sur
             l&apos;agglomération nantaise, proposant des projets variés au sein
             de laquelle je pourrais m&apos;épanouir et apporter mes compétences
-            en développement Front-end React et en gestion de projet.
-            <br /> <br />A moyen terme je compte développer mes compétences
-            Back-end afin de devenir développeur Full-stack pour étendre mon
-            champ de compétences au sein de l&apos;entreprise.
+            en développement Full-Stack et en gestion de projet.
           </h3>
         </ul>
       </div>

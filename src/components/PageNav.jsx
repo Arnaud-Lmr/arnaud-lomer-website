@@ -32,7 +32,7 @@ function PageNav() {
           }
           to="/skills"
         >
-          Front-end skills
+          Skills
         </NavLink>
 
         <NavLink

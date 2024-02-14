@@ -5,6 +5,13 @@ import PageNav from "../components/PageNav";
 
 const experience = [
   {
+    id: 0,
+    logo: "freelance.png",
+    title: "2023 - Freelance",
+    description:
+      "De septembre 2023 à décembre 2023, j'ai développé une interface pour gérer une base de données de produits alimentaires et une interface d'un outil d'aide à la prise de décision de produits bancaires en React/JavaScript/HTML/CSS",
+  },
+  {
     id: 1,
     logo: "./cda.png",
     title:
@@ -24,7 +31,7 @@ const experience = [
     logo: "./actronika.png",
     title: "2018 - Ingénieur Développement de produits chez Actronika",
     description:
-      "De février 2018 à août 2018, j'ai été en charge de la conception et du prototypage d'un actionneur haptique au sein d'Actronika à Paris (75). Start-up innovante du domaine de l'haptique fournissant à ses clients industriels des solutions permettant la communication homme-machine grâce au toucher (transmission vibratoire).",
+      "De février 2018 à août 2018, j'ai été en charge de l'intégration et du paramétrage en Java d'actionneurs haptiques au sein d'Actronika à Paris (75). Start-up innovante du domaine de l'haptique fournissant à ses clients industriels des solutions permettant la communication homme-machine grâce au toucher (transmission vibratoire).",
   },
 ];
 
@@ -34,7 +41,7 @@ const formation = [
     logo: "./react.png",
     title: "2023 - React certification",
     description:
-      "De septembre 2023 à décembre 2023, j'ai suivi une formation certifiante sur JavaScript et React afin de me spécialiser sur le développement Front-end.",
+      "De septembre 2023 à décembre 2023, j'ai suivi une formation certifiante sur JavaScript et React afin d'approfondir mes compétences en développement Front-end. J'ai également pu apprendre les tests unitaires via Jest.",
   },
   {
     id: 2,
